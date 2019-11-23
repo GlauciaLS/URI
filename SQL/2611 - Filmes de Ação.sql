@@ -1,0 +1,1 @@
+select movies.id, movies.name from movies, genres where description = 'Action' and movies.id_genres = genres.id

@@ -1,0 +1,1 @@
+select movies.id, movies.name from movies, prices where prices.value < 2 and movies.id_prices = prices.id
